@@ -1,5 +1,5 @@
 body{
-    background-image: url(hatter.jpg);
+    background-image: url(kepek/hatter.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,15 +15,15 @@ p{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#kivalasztas li{
+#kivalasztas li{ 
     width: 250px;
     padding: 10px;
     text-align: center;
     font-size: larger;
     color: rgba(173, 173, 191, 0.55);
     display: inline-block;
-}
+} 
 
 #Europa:hover{
-    list-style-image: url(Európa.png) !important;
+    list-style-image: url(kepek/Európa.png) !important;
 }

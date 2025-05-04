@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5faff;
+    color: #2c3e50;
+    line-height: 1.6;
+    background-image: url(kepek/hatter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  header {
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.2em;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    opacity: 75%;
+  }
+  
+  section h2 {
+    color: #004466;
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #006699;
+    padding-bottom: 5px;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+  }   
+  
+  footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  
+  a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
+
+  p {
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Segoe UI', sans-serif;
+  }
