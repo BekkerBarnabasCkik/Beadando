@@ -15,54 +15,13 @@ p{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-#kivalasztas li{
-    width: 250px;
-    padding: 0px 25px;
-    text-align: center; 
+th{
+    text-align: center;
+    color: white;
     font-size: 25px;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    height: 150px;
 }
 
-#Europa{
-    background-image: url(Európa.webp);
-    background-size: 85%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#Eszak-Amerika{
-    background-image: url(Észak-Amerika.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#Del-Amerika{
-    background-image: url(Dél-Amerika.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#Afrika{
-    background-image: url(Afrika.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#Azsia{
-    background-image: url(Ázsia.webp);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-#Ausztralia{
-    background-image: url(Ausztrália.webp);
-    background-size: 80%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
+td img{
+    width: 250px;
+    height: 75%;
+}  
