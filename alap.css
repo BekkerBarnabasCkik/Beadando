@@ -23,5 +23,17 @@ th{
 
 td img{
     width: 250px;
-    height: 75%;
-}  
+    height: 100%;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+    color: white;
+  }
