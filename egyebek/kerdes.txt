@@ -1,3 +1,5 @@
-1. area, video, audio 
+1. area, video, audio felhasználási száma 
 
-2. 
+2. videore jó e küldő hivatkozás vagy be kell tenni az oldalra
+
+3. 
