@@ -80,4 +80,24 @@ body {
     text-align: center;
   }
 
+  table img{
+    width: 115px;
+    height: 100px;
+  }
+
+  table td, table th{
+    text-align: center;
+  }
+
+  .video{
+    object-fit: cover;
+    width: 250px;
+    height: 120px;
+  }
+
+  .zaszlok{
+    width: 240px;
+    height: 200px
+  }
+
   
