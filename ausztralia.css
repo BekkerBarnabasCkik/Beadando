@@ -42,7 +42,7 @@ body {
     padding-bottom: 5px;
   }
   
-  img {
+  img{
     width: 100%;
     max-width: 600px;
     display: block;
@@ -108,4 +108,8 @@ body {
   .zaszlok{
     width: 240px;
     height: 200px
+  }
+
+  #eu_szöveg{
+    text-align: center;
   }

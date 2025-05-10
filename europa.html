@@ -32,7 +32,45 @@
             
               <section>
                 <h2>Mai Európa</h2>
-                <img src="kepek/mai_europa.jpg" alt="Európa" title="Mai-Európa">
+                <p id="eu_szöveg">További információért kattints az adott ország nevére, és megnyílik a részletes ismertetője.</p>
+                <img src="kepek/mai_europa_jo.jpg" alt="Európa" title="Mai-Európa" usemap="#europa" id="europa">
+                <!-- <map name="europa">
+                    <area target="_blank" alt="Portugália" title="Portugália" href="https://hu.wikipedia.org/wiki/Portug%C3%A1lia" coords="37,851,40,839,52,832,30,851,20,851,14,845,6,843,9,829,11,818,14,808,3,791,7,781,14,781,14,771,24,767,25,756,36,745,40,735,42,719,50,712,58,713,60,719,67,721,72,723,80,723,85,725,94,738,82,745,73,756,64,769,63,780,50,791,53,801,44,814,45,827" shape="poly">
+                    <area target="_blank" alt="Spanyolország" title="Spanyolország" href="https://hu.wikipedia.org/wiki/Spanyolorsz%C3%A1g?variant=zh-cn" coords="67,678,47,678,45,689,46,700,45,712,63,719,79,725,89,729,92,741,79,748,71,761,63,777,59,790,54,804,47,822,43,834,39,848,40,861,49,870,52,884,59,898,79,888,100,886,115,890,130,895,145,896,160,885,176,877,187,863,203,858,193,837,201,821,215,815,221,808,228,800,236,796,255,795,267,789,278,784,287,777,282,766,255,754,232,745,211,735,194,723,180,712,137,704,120,689,96,682,81,671,74,674" shape="poly">
+                    <area target="_blank" alt="Franciaország" title="Franciaország" href="https://hu.wikipedia.org/wiki/Franciaorsz%C3%A1g" coords="203,729,196,718,211,685,214,667,228,674,224,659,221,637,212,624,211,608,200,594,191,587,180,581,175,575,178,564,184,559,196,559,206,562,218,570,228,571,236,564,234,550,242,546,246,551,255,557,261,561,274,561,274,551,287,548,299,544,302,530,311,525,322,532,329,538,334,545,340,551,345,556,356,567,362,575,368,576,374,581,381,585,393,593,402,597,406,604,400,610,398,623,388,635,384,641,380,643,378,647,372,651,365,658,358,672,370,667,373,675,374,685,374,698,369,703,369,711,368,716,370,729,380,732,380,741,370,747,358,754,344,755,327,748,316,739,299,741,288,747,284,756,282,761,268,759,254,751,240,745,227,744,215,737" shape="poly">
+                    <area target="_blank" alt="Luxemburg" title="Luxemburg" href="https://hu.wikipedia.org/wiki/Luxemburg" coords="364,576,367,563,378,557,384,564,386,575,376,582" shape="poly">
+                    <area target="_blank" alt="Írország" title="Írország" href="https://hu.wikipedia.org/wiki/%C3%8Drorsz%C3%A1g" coords="194,410,194,397,181,396,172,386,180,375,193,367,178,361,169,369,165,385,148,376,139,378,134,391,137,401,143,410,139,418,128,424,121,427,115,430,115,443,117,449,127,455,142,456,158,453,170,451,181,450,186,443,194,430,198,419" shape="poly">
+                    <area target="_blank" alt="Belgium" title="Belgium" href="https://hu.wikipedia.org/wiki/Belgium" coords="322,523,329,519,341,523,352,522,360,519,366,523,369,531,372,536,374,545,378,556,370,559,362,569,346,562,333,545" shape="poly">
+                    <area target="_blank" alt="Hollandia" title="Hollandia" href="https://hu.wikipedia.org/wiki/Hollandia?variant=zh-cn" coords="378,544,382,531,384,518,393,512,400,505,400,493,406,484,402,472,393,472,380,473,375,486,362,488,354,499,348,511,350,521,363,527,372,530,372,536" shape="poly">
+                    <area target="_blank" alt="Izland" title="Izland" href="https://hu.wikipedia.org/wiki/Izland" coords="160,4,162,12,158,23,158,32,168,29,179,20,178,28,195,28,192,35,203,35,210,36,223,36,226,46,225,54,228,63,230,73,227,82,213,87,201,92,189,92,171,94,160,93,152,92,145,86,136,81,130,71,124,65,114,54,128,52,130,32,121,28,140,29,147,18,128,9,145,-1" shape="poly">
+                    <area target="_blank" alt="Norvégia" title="Norvégia" href="https://hu.wikipedia.org/wiki/Norv%C3%A9gia" coords="497,321,489,323,472,321,455,334,441,343,421,342,413,326,411,302,410,273,409,237,428,221,455,210,492,187,506,165,535,119,559,85,563,62,584,35,605,21,625,23,638,5,663,1,678,1,699,1,706,3,705,18,703,26,681,21,666,38,661,55,649,59,633,55,620,46,615,55,604,67,584,75,568,105,563,117,556,131,547,141,547,160,539,170,540,182,522,194,516,208,514,224,510,238,511,253,517,261,514,267,511,276,513,286,510,296,499,311" shape="poly">
+                    <area target="_blank" alt="Svájc" title="Svájc" href="https://hu.wikipedia.org/wiki/Sv%C3%A1jc" coords="359,663,371,674,377,682,393,682,400,676,407,678,417,680,428,675,443,672,435,660,424,652,427,642,409,636,395,639,381,643,370,652" shape="poly">
+                    <area target="_blank" alt="Németország" title="Németország" href="https://hu.wikipedia.org/wiki/N%C3%A9metorsz%C3%A1g" coords="381,587,394,592,406,599,404,609,395,621,395,638,409,640,423,642,435,645,443,647,456,648,465,648,481,647,490,644,492,633,503,623,505,610,489,602,482,583,495,568,505,564,521,554,531,549,529,524,528,506,527,494,521,477,509,464,497,459,479,459,464,453,451,447,436,437,437,458,439,468,425,472,415,469,405,471,403,498,393,508,383,518,378,538,377,547,379,561,379,573" shape="poly">
+                    <area target="_blank" alt="Ausztria" title="Ausztria" href="https://hu.wikipedia.org/wiki/Ausztria" coords="457,650,439,648,429,650,438,663,452,663,467,663,484,663,488,673,506,677,520,677,536,673,550,670,558,666,560,653,564,646,572,638,565,619,549,617,536,614,523,622,509,620,502,629,495,643,489,647,472,647" shape="poly">
+                    <area target="_blank" alt="Olaszország" title="Olaszország" href="https://hu.wikipedia.org/wiki/Olaszorsz%C3%A1g" coords="385,683,375,686,378,701,368,713,373,726,378,734,384,741,397,732,409,730,420,733,431,746,434,758,436,772,454,789,464,803,476,817,494,826,510,841,526,852,539,866,548,886,543,899,538,912,528,912,513,913,496,916,480,912,468,922,484,930,502,944,516,952,524,950,525,938,529,925,542,919,557,910,561,892,570,891,557,870,565,850,582,860,592,862,592,849,563,830,548,824,549,810,527,805,504,777,504,757,475,735,477,718,485,700,495,699,501,684,487,671,470,661,450,663,438,676,426,676,412,679,398,677" shape="poly">
+                    <area target="_blank" alt="Szlovénia" title="Szlovénia" href="https://hu.wikipedia.org/wiki/Szlov%C3%A9nia" coords="516,680,508,687,503,697,515,704,534,704,544,695,552,681,560,672,546,677,528,676" shape="poly">
+                    <area target="_blank" alt="Horvátország" title="Horvátország" href="https://hu.wikipedia.org/wiki/Horv%C3%A1torsz%C3%A1g?variant=zh-cn" coords="549,689,560,682,567,684,577,698,596,698,606,700,615,715,608,724,587,717,560,717,546,717,546,729,554,738,560,750,572,765,582,775,594,786,565,772,544,757,530,742,514,730,503,710,527,705,540,700" shape="poly">
+                    <area target="_blank" alt="Bosznia Hercegovina" title="Bosznia Hercegovina" href="https://hu.wikipedia.org/wiki/Bosznia-Hercegovina?variant=zh-cn" coords="559,718,544,715,544,725,549,732,553,738,558,746,565,756,574,767,581,778,593,786,602,772,608,764,610,759,615,752,616,738,613,730,605,722,584,716,569,715" shape="poly">
+                    <area target="_blank" alt="Szerbia" title="Szerbia" href="https://hu.wikipedia.org/wiki/Szerbia" coords="613,694,613,706,620,723,618,735,621,753,621,765,627,774,641,777,653,778,667,783,681,791,685,777,690,765,685,744,665,730,652,709,631,690" shape="poly">
+                    <area target="_blank" alt="Montenegró" title="Montenegró" href="https://hu.wikipedia.org/wiki/Montenegr%C3%B3" coords="605,771,600,787,600,799,614,807,619,794,632,787,632,779,616,767" shape="poly">
+                    <area target="_blank" alt="Albánia" title="Albánia" href="https://hu.wikipedia.org/wiki/Alb%C3%A1nia" coords="618,804,624,822,622,842,630,859,635,868,644,853,650,837,642,811,640,797,624,787" shape="poly">
+                    <area target="_blank" alt="Koszovó" title="Koszovó" href="https://hu.wikipedia.org/wiki/Koszov%C3%B3" coords="643,778,636,791,642,800,651,804,665,798,672,793,654,782,662,787" shape="poly">
+                    <area target="_blank" alt="Észak-Macedónia" title="Észak-Macedónia" href="https://hu.wikipedia.org/wiki/%C3%89szak-Maced%C3%B3nia" coords="660,799,646,808,643,820,655,836,664,833,678,830,688,825,693,814,683,802,673,798" shape="poly">
+                    <area target="_blank" alt="Görögország" title="Görögország" href="https://hu.wikipedia.org/wiki/G%C3%B6r%C3%B6gorsz%C3%A1g" coords="659,836,649,852,637,871,639,883,655,891,651,905,657,926,671,950,688,959,709,977,723,991,757,1003,775,994,752,983,737,982,713,960,733,951,747,951,801,989,832,953,800,932,787,905,773,876,758,847,763,835,769,811,747,816,717,816,697,821,689,831,672,831,658,835" shape="poly">
+                    <area target="_blank" alt="Bulgária" title="Bulgária" href="https://hu.wikipedia.org/wiki/Bulg%C3%A1ria" coords="726,752,694,752,680,746,690,772,678,792,694,809,698,822,723,816,741,816,758,812,764,800,781,796,792,795,786,782,786,768,792,757,800,740,772,739,758,746,740,757" shape="poly">
+                    <area target="_blank" alt="Románia" title="Románia" href="https://hu.wikipedia.org/wiki/Rom%C3%A1nia" coords="682,638,665,652,662,672,650,692,643,708,655,715,665,727,678,735,685,749,694,754,714,756,734,758,752,749,773,739,795,738,802,736,807,717,815,703,787,702,782,676,783,662,763,630,737,637,712,635,695,634" shape="poly">
+                    <area target="_blank" alt="Magyarország" title="Magyarország" href="https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g" coords="593,644,576,639,567,645,559,656,559,667,561,679,569,684,577,690,585,696,593,697,611,696,629,690,643,686,647,681,657,668,665,653,671,641,673,629,659,627,635,623,615,634,602,645" shape="poly">
+                    <area target="_blank" alt="Szlovákia" title="Szlovákia" href="https://hu.wikipedia.org/wiki/Szlov%C3%A1kia" coords="583,614,573,621,572,634,583,642,602,642,615,632,625,629,633,627,652,621,665,623,671,612,659,599,634,599,627,605,617,597,603,598,593,609" shape="poly">
+                    <area target="_blank" alt="Csehország" title="Csehország" href="https://hu.wikipedia.org/wiki/Csehorsz%C3%A1g" coords="587,612,603,591,589,583,561,574,545,564,527,556,519,562,497,568,490,584,490,596,502,610,518,618,545,609,560,616" shape="poly">
+                    <area target="_blank" alt="Dánia" title="Dánia" href="https://hu.wikipedia.org/wiki/D%C3%A1nia" coords="450,436,438,429,437,412,437,393,441,380,458,375,468,367,477,376,468,393,476,397,470,411,484,415,494,408,504,415,504,429,499,437,488,450,478,451,462,441" shape="poly">
+                    <area target="_blank" alt="Lengyelország" title="Lengyelország" href="https://hu.wikipedia.org/wiki/Lengyelorsz%C3%A1g" coords="547,467,536,487,529,500,533,522,535,544,543,560,564,566,584,579,611,589,621,594,639,599,672,599,683,583,694,563,691,531,682,511,687,485,681,461,661,453,635,454,613,459,591,449,565,453" shape="poly">
+                    <area target="_blank" alt="Litvánia" title="Litvánia" href="https://hu.wikipedia.org/wiki/Litv%C3%A1nia" coords="663,440,647,439,639,425,647,403,671,403,691,404,705,409,725,421,720,433,707,450,701,465,681,470,663,453" shape="poly">
+                    <area target="_blank" alt="Lettország" title="Lettország" href="https://hu.wikipedia.org/wiki/Lettorsz%C3%A1g?variant=zh-tw" coords="631,402,639,380,645,363,663,369,673,377,684,372,687,352,701,353,717,363,730,361,736,375,739,387,741,399,731,407,721,411,713,411,693,399,678,399,665,399,637,409" shape="poly">
+                    <area target="_blank" alt="Észtország" title="Észtország" href="https://hu.wikipedia.org/wiki/%C3%89sztorsz%C3%A1g" coords="669,338,656,351,648,332,666,322,680,316,704,308,720,308,736,316,730,335,732,349,728,359,716,363,687,350,673,344" shape="poly">
+                    <area target="_blank" alt="Finnország" title="Finnország" href="https://hu.wikipedia.org/wiki/Finnorsz%C3%A1g" coords="705,28,701,45,702,70,720,92,726,133,738,164,745,195,761,202,755,229,748,262,726,276,691,290,654,296,637,278,637,243,636,206,672,176,676,144,657,135,660,104,647,82,628,66,624,52,667,57,673,36,688,21" shape="poly">
+                    <area target="_blank" alt="Svédország" title="Svédország" href="https://hu.wikipedia.org/wiki/Sv%C3%A9dorsz%C3%A1g" coords="517,436,538,416,573,419,619,380,597,334,602,307,582,274,584,240,608,197,628,192,630,172,649,139,659,141,654,105,644,89,624,60,613,65,587,77,572,111,560,134,546,157,540,190,518,204,511,246,516,265,509,299,501,316,490,338,498,367,505,388,510,402,505,423" shape="poly">
+                    <area target="_blank" alt="Ciprus" title="Ciprus" href="https://hu.wikipedia.org/wiki/Ciprus_(sziget)" coords="922,965,914,979,936,979,956,967,958,958,962,943,940,957" shape="poly">
+                  </map> -->
                 <p>
                    A világ egyik legsűrűbben lakott, legfejletebb és legváltozatosabb kontinense mely gazdaságilag és kultúrálisan is kiemelkedő szereppel bír a világon. <br>
                    Az Európai Únió (EU) 27 tagállamot foglal össze és célja a béke, az eggyütműködés. Sok tagállam egységes pénznemet használ, az eurót. 
@@ -97,7 +135,7 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td rowspan="2">Olaszország
+                      <td rowspan="2">Olaszország <br>
                         <img src="kepek/olasz_zászló.png" alt="Olasz_zászló" class="zaszlok">
                       </td>
                       <td>risotto</td>
@@ -115,7 +153,7 @@
                         </video></td>
                     </tr>
                     <tr>
-                      <td rowspan="2">Magyarország
+                      <td rowspan="2">Magyarország <br>
                         <img src="kepek/magyar_zászló.png" alt="Magyar-zászló" class="zaszlok">
                       </td>
                       <td>Gulyás</td>
@@ -130,7 +168,7 @@
                         </video></td>
                     </tr>
                     <tr>
-                      <td rowspan="2">Spanyolország
+                      <td rowspan="2">Spanyolország <br>
                         <img src="kepek/spanyol_zászló.png" alt="Spanyol-zászló" class="zaszlok">
                       </td>
                       <td>Churros</td>
@@ -145,7 +183,7 @@
                         </video></td>
                     </tr>
                     <tr>
-                      <td rowspan="2">Görögország
+                      <td rowspan="2">Görögország <br>
                         <img src="kepek/görög_zászló.png" alt="Görög-zászló" class="zaszlok">
                       </td>
                       <td>Moussaka</td>
@@ -160,7 +198,7 @@
                         </video></td>
                     </tr>
                     <tr>
-                      <td rowspan="2">Egyesült Királyság
+                      <td rowspan="2">Egyesült Királyság <br>
                         <img src="kepek/Egyesült_királyság_zászló.png" alt="Egyesült-Királyság-zászlója" class="zaszlok">
                       </td>
                       <td>Angol reggeli</td>
