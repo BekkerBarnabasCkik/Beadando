@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-        <link rel="stylesheet" href="ausztralia.css">
+        <link rel="stylesheet" href="mellek_oldalak.css">
         <title>Európa Bemutatása</title>
     </head>
     <body>
@@ -12,8 +12,20 @@
                 <h1>Európa</h1>
                 <p>Európa a világ legváltozatosabb és leggazdagabb kultúrájú kontinense</p>
               </header>
-            
-              <section>
+              
+              <nav>
+                <div class="container">
+                  <div class="row">
+                    <div class="col erzekeles"><a href="#altalanos_info">Általános információk</a></div>
+                    <div class="col erzekeles"><a href="#tortenelme">Történelme</a></div>
+                    <div class="col erzekeles"><a href="#mai_europa">Mai Európa</a></div>
+                    <div class="col erzekeles"><a href="#erdekesseg">Érdekességek</a></div>
+                    <div class="col erzekeles"><a href="#gasztronomia">Gasztronómia</a></div>
+                  </div>
+                </div>
+              </nav>
+
+              <section id="altalanos_info">
                 <h2>Általános információk</h2>
                 <img src="kepek/Europa.png" alt="urkep" title="Európa-űrfelvétel">
                 <p>
@@ -21,8 +33,8 @@
                 </p>
               </section>
             
-              <section>
-                <h2>Történelem</h2>
+              <section id="tortenelme">
+                <h2>Történelme</h2>
                 <img src="kepek/europa_regen.png" alt="Európa-a-középkorban" title="Európa-a-középkorban">
                 <p>
                   Az ókorban a Görög civilizáció volt az egyik legjelentősebb civilizáció, mely megalapozta a filozófiát, a színházakat és a tudomány ágakat. Ezután a Római Birodalom vált Európa vezető hatalmává, ami kiterjedt szinte az egész Nyugat- és Dél-Európára. A római jog, építészet még máig is meghatározó tényező. <br>
@@ -30,7 +42,7 @@
                 </p>
               </section>
             
-              <section>
+              <section id="mai_europa">
                 <h2>Mai Európa</h2>
                 <!--<p id="eu_szöveg">További információért kattints az adott ország nevére, és megnyílik a részletes ismertetője.</p> -->
                 <img src="kepek/mai_europa_jo.jpg" alt="Európa" title="Mai-Európa">
@@ -78,7 +90,7 @@
                 </p>
               </section>
 
-              <section>
+              <section id="erdekesseg">
                 <h2>Érdekességek</h2>
                   <table class="table table-striped table-bordered">
                     <thead>
@@ -123,7 +135,7 @@
                   </table>
               </section>
             
-              <section>
+              <section id="gasztronomia">
                 <h2>Gasztronómia</h2>
                 <table class="table table-striped table-bordered">
                   <thead>
@@ -136,7 +148,7 @@
                   <tbody>
                     <tr>
                       <td rowspan="2">Olaszország <br>
-                        <img src="kepek/olasz_zászló.png" alt="Olasz_zászló" class="zaszlok" title="Olasz zászló">
+                        <a href="https://hu.wikipedia.org/wiki/Olaszorsz%C3%A1g#" target="_blank"><img src="kepek/olasz_zászló.png" alt="Olasz_zászló" class="zaszlok" title="Olasz zászló"></a>
                       </td>
                       <td>risotto</td>
                       <td>
@@ -154,7 +166,7 @@
                     </tr>
                     <tr>
                       <td rowspan="2">Magyarország <br>
-                        <img src="kepek/magyar_zászló.png" alt="Magyar-zászló" class="zaszlok" title="Magyar zászló">
+                        <a href="https://hu.wikipedia.org/wiki/Magyarorsz%C3%A1g" target="_blank"><img src="kepek/magyar_zászló.png" alt="Magyar-zászló" class="zaszlok" title="Magyar zászló"></a>
                       </td>
                       <td>Gulyás</td>
                       <td><video class="video" controls>
@@ -169,7 +181,7 @@
                     </tr>
                     <tr>
                       <td rowspan="2">Spanyolország <br>
-                        <img src="kepek/spanyol_zászló.png" alt="Spanyol-zászló" class="zaszlok" title="Spanyol zászló">
+                        <a href="https://hu.wikipedia.org/wiki/Spanyolorsz%C3%A1g?variant=zh-cn" target="_blank"><img src="kepek/spanyol_zászló.png" alt="Spanyol-zászló" class="zaszlok" title="Spanyol zászló"></a>
                       </td>
                       <td>Churros</td>
                       <td><video class="video" controls>
@@ -184,7 +196,7 @@
                     </tr>
                     <tr>
                       <td rowspan="2">Görögország <br>
-                        <img src="kepek/görög_zászló.png" alt="Görög-zászló" class="zaszlok" title="Görög zászló">
+                        <a href="https://hu.wikipedia.org/wiki/G%C3%B6r%C3%B6gorsz%C3%A1g" target="_blank"><img src="kepek/görög_zászló.png" alt="Görög-zászló" class="zaszlok" title="Görög zászló"></a>
                       </td>
                       <td>Moussaka</td>
                       <td><video class="video" controls>
@@ -199,7 +211,7 @@
                     </tr>
                     <tr>
                       <td rowspan="2">Egyesült Királyság <br>
-                        <img src="kepek/Egyesült_királyság_zászló.png" alt="Egyesült-Királyság-zászlója" class="zaszlok" title="Egyesült Királyság zászló">
+                        <a href="https://hu.wikipedia.org/wiki/Egyes%C3%BClt_Kir%C3%A1lys%C3%A1g" target="_blank"><img src="kepek/Egyesült_királyság_zászló.png" alt="Egyesült-Királyság-zászlója" class="zaszlok" title="Egyesült Királyság zászló"></a>
                       </td>
                       <td>Angol reggeli</td>
                       <td><video class="video" controls>

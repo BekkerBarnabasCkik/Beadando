@@ -23,7 +23,7 @@ div p{
 
 div img{
     width: 250px;
-    height: 100%;
+    height: 500px;
 }
 
 a {
@@ -48,4 +48,18 @@ section h2, p{
 
 .container p{
     letter-spacing: 2px;
+}
+
+.kep{
+    padding-top: 50px;
+    width: 500px;
+    height: auto;
+}
+
+.szoveg{
+    padding-top: 20px;
+}
+
+#ausztralia{
+    padding-top: 25px;
 }

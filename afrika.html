@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="ausztralia.css">
+    <link rel="stylesheet" href="mellek_oldalak.css">
     <title>Afrika Bemutatása</title>
 </head>
 <body>
@@ -13,7 +13,19 @@
         <p>A kontinens, ahol az emberiség története kezdődött</p>
     </header>
 
-    <section>
+    <nav>
+          <div class="container">
+            <div class="row">
+              <div class="col erzekeles"><a href="#altalanos_info">Általános információk</a></div>
+              <div class="col erzekeles"><a href="#tortenelme">Történelme</a></div>
+              <div class="col erzekeles"><a href="#mai_afrika">Mai Afrika</a></div>
+              <div class="col erzekeles"><a href="#termeszeti_kincsek">Természeti kincsek</a></div>
+              <div class="col erzekeles"><a href="#gasztronomia">Gasztronómia</a></div>
+            </div>
+          </div>
+      </nav>
+
+    <section id="altalanos_info">
         <h2>Általános információk</h2>
         <img src="kepek/afrika.png" alt="Afrika térképe" title="Afrika térkép">
         <p>
@@ -21,15 +33,15 @@
         </p>
     </section>
 
-    <section>
-        <h2>Történelem</h2>
+    <section id="tortenelme">
+        <h2>Történelme</h2>
         <img src="kepek/afrika_tortenelem.jpg" alt="Ősi afrikai kultúrák" title="Ősi afrikai civilizációk">
         <p>
             Afrika a modern ember bölcsője, ahol a legkorábbi emberi leleteket találták. A kontinensen olyan nagy civilizációk virágoztak, mint Egyiptom, Kus, Mali Birodalom vagy a Zulu Királyság. A gyarmatosítás erősen befolyásolta Afrika történelmét, de az 1960-as évektől kezdődően egyre több ország nyerte vissza függetlenségét.
         </p>
     </section>
 
-    <section>
+    <section id="mai_afrika">
         <h2>Mai Afrika</h2>
         <img src="kepek/cape_town.jpg" alt="Fokváros" title="Fokváros, Dél-Afrika">
         <p>
@@ -37,7 +49,7 @@
         </p>
     </section>
 
-    <section>
+    <section id="termeszeti_kincsek">
         <h2>Természeti kincsek Afrikában</h2>
         <p>A kontinens bőséges nyersanyagkészlettel rendelkezik, amelyek fontos szerepet játszanak a gazdaságban.</p>
         <table class="table table-striped table-bordered">
@@ -46,7 +58,7 @@
               <th>Erőforrás</th>
               <th>Főbb termelő országok</th>
               <th>Felhasználás</th>
-              <th colspan="2">Híres építmény/látnivaló/érdekesség</th>
+              <th>Híres építmény/látnivaló/érdekesség</th>
             </tr>
           </thead>
           <tbody>
@@ -68,16 +80,11 @@
               <td>Energiahordozó</td>
               <td><a href="kepek/olaj_nagy.jpg" target="_blank"><img src="kepek/olaj_kicsi.jpg" alt="Olaj" title="Olaj"></a></td>
             </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
           </tbody>
         </table>
       </section>
 
-    <section>
+    <section id="gasztronomia">
         <h2>Gasztronómia</h2>
         <img src="kepek/jollof_rice.jpg" alt="Jollof rizs" title="Nyugat-afrikai Jollof rizs">
         <p>
