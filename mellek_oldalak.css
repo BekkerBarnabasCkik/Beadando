@@ -127,3 +127,9 @@ body {
   .erzekeles:hover{
     background-color: rgb(205, 205, 205);
   }
+
+  .erzekeles{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
